@@ -1,100 +1,141 @@
 {
-  "_nota": "PELLETTERIA E PELLAME (pre-ordine, nessun pagamento). Prezzi in centesimi. Fonte UNICA di /negozio/ e delle pagine prodotto. L'id \"categoria\" e' riservato.",
+  "_nota": "PELLETTERIA (pre-ordine, nessun pagamento). Reparti Donna e Uomo; le sottocategorie hanno il campo \"genitore\". Prezzi in centesimi. Fonte UNICA di /negozio/ e delle pagine prodotto. L'id \"categoria\" e' riservato.",
   "categorie": [
     {
-      "id": "pellame",
-      "nome": "Pellame e pelli",
-      "icona": "🐂"
+      "id": "donna",
+      "nome": "Donna",
+      "icona": "👩"
     },
     {
-      "id": "cuoio",
-      "nome": "Cuoio e suola",
-      "icona": "🟤"
+      "id": "donna-borse-mano",
+      "nome": "Borse a mano",
+      "icona": "👜",
+      "genitore": "donna"
     },
     {
-      "id": "borse-donna",
-      "nome": "Borse donna",
-      "icona": "👜"
+      "id": "donna-borse-spalla",
+      "nome": "Borse a spalla",
+      "icona": "👜",
+      "genitore": "donna"
     },
     {
-      "id": "borse-uomo",
-      "nome": "Borse uomo e 24 ore",
-      "icona": "💼"
+      "id": "donna-tracolle",
+      "nome": "Tracolle e mini bag",
+      "icona": "👝",
+      "genitore": "donna"
     },
     {
-      "id": "zaini",
-      "nome": "Zaini e borse da lavoro",
-      "icona": "🎒"
+      "id": "donna-shopper",
+      "nome": "Shopper e tote",
+      "icona": "🛍️",
+      "genitore": "donna"
     },
     {
-      "id": "valigeria",
+      "id": "donna-pochette",
+      "nome": "Pochette e clutch",
+      "icona": "👛",
+      "genitore": "donna"
+    },
+    {
+      "id": "donna-zaini",
+      "nome": "Zaini",
+      "icona": "🎒",
+      "genitore": "donna"
+    },
+    {
+      "id": "donna-portafogli",
+      "nome": "Portafogli e portacarte",
+      "icona": "💳",
+      "genitore": "donna"
+    },
+    {
+      "id": "donna-viaggio",
       "nome": "Valigeria e viaggio",
-      "icona": "🧳"
+      "icona": "🧳",
+      "genitore": "donna"
     },
     {
-      "id": "piccola",
-      "nome": "Piccola pelletteria",
-      "icona": "👛"
+      "id": "donna-cinture",
+      "nome": "Cinture",
+      "icona": "🪢",
+      "genitore": "donna"
     },
     {
-      "id": "cinture",
-      "nome": "Cinture e bretelle",
-      "icona": "🪢"
+      "id": "donna-giacche",
+      "nome": "Giacche e capispalla",
+      "icona": "🧥",
+      "genitore": "donna"
     },
     {
-      "id": "abbigliamento",
-      "nome": "Giacche e abbigliamento",
-      "icona": "🧥"
+      "id": "donna-scarpe",
+      "nome": "Scarpe e stivali",
+      "icona": "👢",
+      "genitore": "donna"
     },
     {
-      "id": "guanti",
+      "id": "donna-accessori",
       "nome": "Guanti e accessori",
-      "icona": "🧤"
+      "icona": "🧤",
+      "genitore": "donna"
     },
     {
-      "id": "calzature",
-      "nome": "Calzature in pelle",
-      "icona": "👞"
+      "id": "uomo",
+      "nome": "Uomo",
+      "icona": "👨"
     },
     {
-      "id": "arredo",
-      "nome": "Arredo e complementi",
-      "icona": "🛋️"
+      "id": "uomo-24ore",
+      "nome": "Borse 24 ore e porta PC",
+      "icona": "💼",
+      "genitore": "uomo"
     },
     {
-      "id": "auto-moto",
-      "nome": "Auto, moto e selleria",
-      "icona": "🏍️"
+      "id": "uomo-messenger",
+      "nome": "Messenger e tracolle",
+      "icona": "👜",
+      "genitore": "uomo"
     },
     {
-      "id": "regali",
-      "nome": "Personalizzati e regali",
-      "icona": "🎁"
+      "id": "uomo-zaini",
+      "nome": "Zaini",
+      "icona": "🎒",
+      "genitore": "uomo"
     },
     {
-      "id": "animali",
-      "nome": "Accessori per animali",
-      "icona": "🐕"
+      "id": "uomo-viaggio",
+      "nome": "Valigeria e borsoni",
+      "icona": "🧳",
+      "genitore": "uomo"
     },
     {
-      "id": "cinturini",
-      "nome": "Cinturini e orologeria",
-      "icona": "⌚"
+      "id": "uomo-portafogli",
+      "nome": "Portafogli e portacarte",
+      "icona": "💳",
+      "genitore": "uomo"
     },
     {
-      "id": "materiali",
-      "nome": "Materiali e attrezzi",
-      "icona": "🧵"
+      "id": "uomo-cinture",
+      "nome": "Cinture e bretelle",
+      "icona": "🪢",
+      "genitore": "uomo"
     },
     {
-      "id": "cura",
-      "nome": "Cura e manutenzione",
-      "icona": "🧴"
+      "id": "uomo-giacche",
+      "nome": "Giacche e giubbotti",
+      "icona": "🧥",
+      "genitore": "uomo"
     },
     {
-      "id": "servizi",
-      "nome": "Riparazioni e restauro",
-      "icona": "🛠️"
+      "id": "uomo-scarpe",
+      "nome": "Scarpe e stivali",
+      "icona": "👞",
+      "genitore": "uomo"
+    },
+    {
+      "id": "uomo-accessori",
+      "nome": "Guanti e accessori",
+      "icona": "🧤",
+      "genitore": "uomo"
     }
   ],
   "prodotti": []

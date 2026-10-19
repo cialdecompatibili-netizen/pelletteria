@@ -1,8 +1,10 @@
 main:
   - title: "Home"
     url: /
-  - title: "Categorie"
-    url: /negozio/
+  - title: "Donna"
+    url: /negozio/categoria/donna/
+  - title: "Uomo"
+    url: /negozio/categoria/uomo/
   - title: "Pre-ordina"
     url: /negozio/
   - title: "Contatti"

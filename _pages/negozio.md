@@ -12,9 +12,9 @@ noindex: false
 <div id="negozio" data-tracker="{{ site.ordini.tracker }}">
 <div class="nz-pills">
 <button type="button" class="nz-pill on" data-cat="">Tutti</button>
-{% for c in site.data.catalogo.categorie %}
-<button type="button" class="nz-pill" data-cat="{{ c.id }}">{{ c.icona }} {{ c.nome }}</button>
-{% endfor %}
+{% for c in site.data.catalogo.categorie %}{% unless c.genitore %}
+<a class="nz-cpill" href="{{ '/negozio/categoria/' | append: c.id | append: '/' | relative_url }}">{{ c.icona }} {{ c.nome }}</a>
+{% endunless %}{% endfor %}
 </div>
 <div class="nz-lista">
 {% for b in site.data.catalogo.prodotti %}
