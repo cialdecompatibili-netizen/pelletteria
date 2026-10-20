@@ -365,9 +365,13 @@ body a.nv__dd-item:hover,body a.nv__dd-item:focus-visible{background:var(--lx-bg
 body .page__footer,body .page__footer footer,body .page__footer-follow,body .page__footer-copyright{background:var(--lx-ink) !important}
 body .page__footer{border-top:1px solid var(--lx-gold) !important}
 body .page__footer footer{padding-top:2rem;padding-bottom:2rem}
+body .page__footer-follow{display:none !important}
 body .page__footer-custom,body .page__footer-copyright,body .page__footer-follow ul li a{color:#b9ad98 !important}
 body .page__footer-custom{font-family:var(--lx-b);font-size:.7rem !important;letter-spacing:.24em;text-transform:uppercase;text-align:center}
-#negozio .nz-cpill,#negozio .nz-pill{font-family:var(--lx-b);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;padding:.6rem 1.1rem}
-#negozio .nz-brd{font-family:var(--lx-b);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase}
-#negozio .nz-vuota{font-family:var(--lx-d);font-size:1.5rem;line-height:1.4;color:var(--lx-ink);margin:2.5rem 0}
+.page__title,.page__title a{color:var(--lx-ink)}
+.page__related,.pagination{--ex-raggio:0}
+.page:has(#negozio) .page__meta,.page:has(#negozio) .pagination{display:none}
+#negozio .nz-pills .nz-cpill,#negozio .nz-pills .nz-pill{font-family:var(--lx-b);font-size:.68rem;letter-spacing:.18em;text-transform:uppercase;padding:.6rem 1.1rem}
+#negozio nav.nz-brd{font-family:var(--lx-b);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase}
+#negozio .nz-cnt.nz-vuota{font-family:var(--lx-d);font-size:1.5rem;line-height:1.4;color:var(--lx-ink);margin:2.5rem 0}
 /* LUSSO-END */
