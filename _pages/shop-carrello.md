@@ -41,7 +41,7 @@ author_profile: false
 .cart-coupon input:focus{border-color:#95d600}
 .cart-coupon button{padding:9px 16px;background:#f0f0f0;border:none;border-radius:8px;font-size:13px;cursor:pointer;font-weight:600;color:#555}
 .cart-coupon button:hover{background:#e8e8e8}
-.btn-checkout{width:100%;padding:14px;background:#95d600;color:#15191d;border:none;border-radius:12px;font-size:16px;font-weight:700;cursor:pointer;margin-top:1em;transition:background .2s;letter-spacing:.3px}
+.btn-checkout{width:100%;padding:14px;background:#95d600;color:#14110f;border:none;border-radius:12px;font-size:16px;font-weight:700;cursor:pointer;margin-top:1em;transition:background .2s;letter-spacing:.3px}
 .btn-checkout:hover{background:#a9e81c}
 .btn-continue{display:block;text-align:center;margin-top:.8em;font-size:13px;color:#3f6b00;text-decoration:none}
 
@@ -59,7 +59,7 @@ author_profile: false
 .checkout-actions{display:flex;gap:.7em;margin-top:1.3em}
 .checkout-actions button{flex:1;padding:12px;border:none;border-radius:10px;font-size:14px;font-weight:700;cursor:pointer}
 .checkout-actions .btn-annulla{background:#f0f0f0;color:#555}
-.checkout-actions .btn-conferma{background:#95d600;color:#15191d}
+.checkout-actions .btn-conferma{background:#95d600;color:#14110f}
 .checkout-actions .btn-conferma:hover{background:#a9e81c}
 
 /* Badge carrello nel menu */

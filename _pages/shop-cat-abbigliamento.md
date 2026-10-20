@@ -19,7 +19,7 @@ shop_category_name: Abbigliamento
 .prod-card h3{font-size:1em;font-weight:700;margin:0 0 .3em}
 .prod-card .desc{font-size:13px;color:#666;margin-bottom:.5em;line-height:1.5}
 .prod-card .price{font-size:1.05em;font-weight:700;color:#3f6b00}
-.btn-cart{background:#95d600;color:#15191d;border:none;border-radius:8px;padding:8px 18px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;flex-shrink:0}
+.btn-cart{background:#95d600;color:#14110f;border:none;border-radius:8px;padding:8px 18px;font-size:13px;font-weight:600;cursor:pointer;white-space:nowrap;flex-shrink:0}
 .btn-cart:hover{background:#a9e81c}
 </style>
 

@@ -118,7 +118,7 @@ img { max-width: 100%; height: auto; }
    ============================================================ */
 a {
   text-decoration: none !important;
-  color: var(--t-link, #d9480f);
+  color: var(--t-link, #8a6a3a);
 }
 a:hover {
   text-decoration: underline !important;
@@ -284,7 +284,7 @@ a.page__taxonomy-item:hover {
 /* ============================================================
    REDESIGN STILE HOME (verde, Archivo Narrow, angoli netti)
    ============================================================ */
-:root{--ex-ink:#15191d;--ex-line:#eadfd2;--ex-warm:#fbf3ea;--ex-y:#ff8a1f;--ex-gd:#d9480f;--ex-deep:#7c2d0a;--ex-d:'Archivo Narrow','Arial Narrow',sans-serif}
+:root{--ex-ink:#14110f;--ex-line:#e2d9ca;--ex-warm:#f6f1e8;--ex-y:#b08d57;--ex-gd:#8a6a3a;--ex-deep:#14110f;--ex-d:'Cormorant Garamond','Times New Roman',serif}
 ::selection{background:var(--ex-y);color:var(--ex-ink)}
 h1,h2,h3,h4,.page__title,.archive__item-title{font-family:var(--ex-d);color:var(--ex-ink);font-weight:700;letter-spacing:-.01em}
 h1,.page__title{line-height:1;text-wrap:balance}
@@ -292,16 +292,16 @@ a{color:var(--ex-gd)}
 /* LINK VISITATI (15/10/2026): il tema Minimal Mistakes colora a:visited di celestino scuro
    (specificita' maggiore di qualsiasi .classe): ecco perche' alcune voci di menu/link erano celestine.
    Qui i visitati restano uguali ai non visitati (arancio del tema). Eccezioni: footer su fondo scuro. */
-a:visited{color:var(--t-link,#d9480f)}
-.page__footer a:visited,.page__footer-follow a:visited{color:#ffd8a8}
+a:visited{color:var(--t-link,#8a6a3a)}
+.page__footer a:visited,.page__footer-follow a:visited{color:#d8c4a0}
 a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--ex-ink);outline-offset:3px}
 .btn,.sp-btn-cart,.btn-cart,.btn-checkout,.btn-conferma{border-radius:2px !important;font-family:var(--ex-d);letter-spacing:0}
 .btn--primary,.btn--primary:visited{background:var(--ex-y);color:var(--ex-ink)}
-.btn--primary:hover,.sp-btn-cart:hover,.btn-cart:hover,.btn-checkout:hover,.btn-conferma:hover{background:#ffb347 !important;color:var(--ex-ink) !important}
+.btn--primary:hover,.sp-btn-cart:hover,.btn-cart:hover,.btn-checkout:hover,.btn-conferma:hover{background:#c8a46a !important;color:var(--ex-ink) !important}
 .shop-cat-card,.prod-card,.cat-card,.art-row,.sp-opt,.sp-badge{border-radius:2px !important;border-color:var(--ex-line)}
 .masthead{border-bottom:1px solid var(--ex-line)}
-.page__footer{background:var(--ex-deep);color:#fde5c8;border-top:0}
-.page__footer a,.page__footer-follow a{color:#ffd8a8}
+.page__footer{background:var(--ex-deep);color:#e9dfcf;border-top:0}
+.page__footer a,.page__footer-follow a{color:#d8c4a0}
 .page__footer a:hover{color:#fff}
 
 /* ============================================================
@@ -345,3 +345,29 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(-
 .pagination > .pagination--pager{float:none !important;flex:0 0 calc(50% - .375rem);width:auto !important;margin:0 !important;box-sizing:border-box;padding:.7em 1em;border:1px solid var(--ex-line) !important;border-radius:var(--ex-raggio) !important;background:#fff;color:var(--ex-ink);font-weight:600;text-align:center;transition:border-color .15s,color .15s}
 .pagination > .pagination--pager:last-child{margin-left:auto !important}
 .pagination > .pagination--pager:hover{border-color:var(--ex-gd) !important;color:var(--ex-gd);background:#fff}
+
+/* LUSSO-BEGIN  (generato da lusso_pelle.py: per cambiare lo stile modificare lo script e rilanciarlo) */
+:root{--lx-ink:#14110f;--lx-ivory:#f7f3ec;--lx-bg:#fbf8f3;--lx-line:#e2d9ca;--lx-gold:#b08d57;--lx-gold-d:#8a6a3a;--lx-muted:#6b6258;--lx-d:'Cormorant Garamond','Times New Roman',serif;--lx-b:'Jost','Helvetica Neue',Arial,sans-serif;--ex-d:var(--lx-d)}
+body{background:var(--lx-bg)}
+::selection{background:var(--lx-gold);color:var(--lx-ink)}
+h1,h2,h3,h4,.page__title,.archive__item-title{font-family:var(--lx-d);font-weight:500;letter-spacing:0}
+.page__title{font-size:clamp(2.3rem,4.6vw,3.5rem);line-height:1.05;margin-bottom:1.25rem}
+.page__content h2{border-bottom:0;padding-bottom:0;font-size:clamp(1.7rem,2.6vw,2.2rem)}
+.btn,.btn--primary,.page__content .btn,.sp-btn-cart,.btn-cart,.btn-checkout,.btn-conferma{font-family:var(--lx-b);font-weight:500;font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;border-radius:0 !important}
+.btn--primary,.btn--primary:visited{background:var(--lx-ink);color:var(--lx-ivory)}
+.btn--primary:hover,.sp-btn-cart:hover,.btn-cart:hover,.btn-checkout:hover,.btn-conferma:hover{background:var(--lx-gold) !important;color:var(--lx-ink) !important}
+body .nv-header{background:var(--t-nav-bg,var(--lx-bg));border-bottom:1px solid var(--lx-line)}
+body a.nv__brand{font-family:var(--lx-d);font-weight:500;font-size:clamp(1.15rem,4.6vw,1.65rem);letter-spacing:.3em;text-transform:uppercase}
+body .nv__link,body a.nv__dd-item{font-family:var(--lx-b);font-weight:400;font-size:.72rem;letter-spacing:.2em;text-transform:uppercase}
+body .nv__link:hover,body .nv__link:focus-visible,body .nv__item.show>.nv__link,body .nv__item.active>a.nv__link,body .nv__item.active>.nv__link{box-shadow:inset 0 -1px 0 var(--lx-gold);font-weight:400}
+body .nv__dd{border-radius:0;border-color:var(--lx-line);box-shadow:0 18px 40px rgba(20,17,15,.08)}
+body a.nv__dd-item:hover,body a.nv__dd-item:focus-visible{background:var(--lx-bg);box-shadow:inset 2px 0 0 var(--lx-gold)}
+body .page__footer,body .page__footer footer,body .page__footer-follow,body .page__footer-copyright{background:var(--lx-ink) !important}
+body .page__footer{border-top:1px solid var(--lx-gold) !important}
+body .page__footer footer{padding-top:2rem;padding-bottom:2rem}
+body .page__footer-custom,body .page__footer-copyright,body .page__footer-follow ul li a{color:#b9ad98 !important}
+body .page__footer-custom{font-family:var(--lx-b);font-size:.7rem !important;letter-spacing:.24em;text-transform:uppercase;text-align:center}
+#negozio .nz-cpill,#negozio .nz-pill{font-family:var(--lx-b);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;padding:.6rem 1.1rem}
+#negozio .nz-brd{font-family:var(--lx-b);font-size:.72rem;letter-spacing:.14em;text-transform:uppercase}
+#negozio .nz-vuota{font-family:var(--lx-d);font-size:1.5rem;line-height:1.4;color:var(--lx-ink);margin:2.5rem 0}
+/* LUSSO-END */

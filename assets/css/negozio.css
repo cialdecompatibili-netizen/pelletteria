@@ -1,6 +1,6 @@
 /* Negozio (E-commerce): elenco prodotti a righe, filtro categorie, carrello. Colori dal tema (variabili del sito, con ripiego).
    PUNTO CRITICO: e' un file statico caricato con <link> da _pages/negozio.md e dalle pagine prodotto (_plugins/ecommerce.rb). */
-:root, #negozio { --nz-r: 6px; --nz-rl: 10px; --nz-bordo: #dee2e6; --nz-sfondo: var(--global-card-bg-color, #fff); --nz-testo: var(--t-text, #212529); --nz-tema: var(--t-accent-dark, #3f6b00); --nz-muto: var(--global-text-color-light, #6c757d); }
+:root, #negozio { --nz-r: 0; --nz-rl: 0; --nz-bordo: #e2d9ca; --nz-sfondo: var(--global-card-bg-color, #fff); --nz-testo: var(--t-text, #212529); --nz-tema: var(--t-accent-dark, #3f6b00); --nz-muto: var(--global-text-color-light, #6c757d); }
 #negozio .nz-pills { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1rem; }
 #negozio .nz-pill { border: 1px solid var(--nz-bordo); background: transparent; color: var(--nz-testo); border-radius: var(--nz-r); padding: .25rem .8rem; cursor: pointer; font-size: .9rem; }
 #negozio .nz-pill.on { background: var(--nz-tema); border-color: var(--nz-tema); color: #fff; }
@@ -69,9 +69,9 @@
 .nz-db:hover, .nz-db:focus-visible { background: var(--c); color: #fff; text-decoration: none; }
 .nz-db:focus-visible { outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--c) 30%, transparent); }
 .nz-db:active { transform: translateY(1px); }
-.nz-db-continua { --c: #e8730c; }
-.nz-db-vai { --c: #1f9d55; background: var(--c); color: #fff; }
-.nz-db-vai:hover, .nz-db-vai:focus-visible { background: #17803f; border-color: #17803f; color: #fff; }
+.nz-db-continua { --c: #8a6a3a; }
+.nz-db-vai { --c: #14110f; background: var(--c); color: #fff; }
+.nz-db-vai:hover, .nz-db-vai:focus-visible { background: #2a231e; border-color: #2a231e; color: #fff; }
 @media (max-width: 575.98px) {
   .nz-dlg-az { flex-direction: column-reverse; align-items: stretch; flex-wrap: nowrap; }
   .nz-db { width: 100%; }
@@ -209,9 +209,9 @@
 #nz-carrello-pag .nz-b:focus-visible { outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--c) 30%, transparent); }
 #nz-carrello-pag .nz-b:active { transform: translateY(1px); }
 #nz-carrello-pag .nz-b-svuota { --c: #c62828; }
-#nz-carrello-pag .nz-b-continua { --c: #e8730c; }
-#nz-carrello-pag .nz-b-vai { --c: #1f9d55; background: var(--c); color: #fff; }
-#nz-carrello-pag .nz-b-vai:hover, #nz-carrello-pag .nz-b-vai:focus-visible { background: #17803f; border-color: #17803f; }
+#nz-carrello-pag .nz-b-continua { --c: #8a6a3a; }
+#nz-carrello-pag .nz-b-vai { --c: #14110f; background: var(--c); color: #fff; }
+#nz-carrello-pag .nz-b-vai:hover, #nz-carrello-pag .nz-b-vai:focus-visible { background: #2a231e; border-color: #2a231e; }
 /* Mobile: ordine invertito (in alto Procedi all'ordine, poi Continua lo shopping, in fondo Svuota il carrello). Su desktop resta Svuota - Continua - Procedi. */
 @media (max-width: 575.98px) {
   #nz-carrello-pag .nz-az-carrello { flex-direction: column-reverse; align-items: stretch; flex-wrap: nowrap; }
@@ -229,7 +229,7 @@
 
 /* ===== ORDINE (/ordine/): due colonne (form a passi + riepilogo fisso), passi a cerchietti, campi moderni, metodi di pagamento, bottoni come il carrello.
    Tutto scoped su #nz-ordine-pag. Il JS (carrello.js) usa gli id nz-o-*, .nz-passo, .nz-steps li, [data-nav], .nz-pay-o, #nz-riep-dati, #nz-sum-*: non cambiarli. */
-#nz-ordine-pag { --g: #1f9d55; --gh: #17803f; --r: #c62828; }
+#nz-ordine-pag { --g: #14110f; --gh: #2a231e; --r: #c62828; }
 #nz-ordine-pag .nz-steps { display: flex; align-items: center; gap: 0; list-style: none; margin: 0 0 2rem; padding: 0; border: 0; }
 #nz-ordine-pag .nz-steps li { display: flex; align-items: center; gap: .6rem; flex: 0 0 auto; margin: 0; padding: 0; border: 0; opacity: 1; color: var(--nz-muto); font-weight: 500; font-size: .95rem; }
 #nz-ordine-pag .nz-steps li[hidden] { display: none; }

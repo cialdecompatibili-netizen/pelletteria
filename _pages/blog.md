@@ -57,7 +57,7 @@ share: false
 }
 .blog-cat:hover {
   background: #95d600;
-  color: #15191d !important;
+  color: #14110f !important;
   text-decoration: none !important;
   transform: translateY(-1px);
   box-shadow: 0 4px 12px rgba(149,214,0, 0.40);

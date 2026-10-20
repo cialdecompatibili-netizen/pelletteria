@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Contatti"
-seo_title: "Contatti | Prodotti Digitali"
+seo_title: "Contatti | Pelletteria"
 seo_description: "Scrivici cosa ti serve o quale prodotto cerchi: ti rispondiamo entro 24 ore, festivi esclusi."
 permalink: /contatti/
 ---
@@ -28,16 +28,16 @@ permalink: /contatti/
 .cf-form input[type=text],.cf-form input[type=email],.cf-form textarea{display:block;width:100%;box-sizing:border-box;margin:0;padding:.75rem .9rem;font:inherit;font-size:1rem;line-height:1.4;color:inherit;background:#fff;border:1px solid rgba(0,0,0,.2);border-radius:8px}
 .cf-form ::placeholder{opacity:.5}
 .cf-form textarea{min-height:9rem;resize:vertical}
-.cf-form input:focus,.cf-form textarea:focus{outline:2px solid var(--t-accent,#d9480f);outline-offset:1px}
-.cf-form .cf-btn{display:block;width:100%;margin:1.5rem 0 0;padding:1rem 1.5rem;border:0;border-radius:999px;background:var(--t-accent,#d9480f);color:#fff;font-size:1.1rem;font-weight:700;letter-spacing:.01em;cursor:pointer;box-shadow:0 6px 18px color-mix(in srgb,var(--t-accent,#d9480f) 38%,transparent);transition:transform .15s ease,box-shadow .15s ease,filter .15s ease}
+.cf-form input:focus,.cf-form textarea:focus{outline:2px solid var(--t-accent,#8a6a3a);outline-offset:1px}
+.cf-form .cf-btn{display:block;width:100%;margin:1.5rem 0 0;padding:1rem 1.5rem;border:0;border-radius:999px;background:var(--t-accent,#8a6a3a);color:#fff;font-size:1.1rem;font-weight:700;letter-spacing:.01em;cursor:pointer;box-shadow:0 6px 18px color-mix(in srgb,var(--t-accent,#8a6a3a) 38%,transparent);transition:transform .15s ease,box-shadow .15s ease,filter .15s ease}
 .cf-form .cf-btn:hover{transform:translateY(-2px);filter:brightness(1.08)}
 .cf-form .cf-btn:active{transform:translateY(0)}
-.cf-form .cf-btn:focus-visible{outline:3px solid var(--t-accent,#d9480f);outline-offset:3px}
+.cf-form .cf-btn:focus-visible{outline:3px solid var(--t-accent,#8a6a3a);outline-offset:3px}
 .cf-form .cf-btn:disabled{opacity:.65;cursor:progress;transform:none;box-shadow:none}
 @media (prefers-reduced-motion:reduce){.cf-form .cf-btn{transition:none}.cf-form .cf-btn:hover{transform:none}}
 .cf-nota{margin:.8rem 0 0;font-size:.85rem;opacity:.7;text-align:center}
 /* Esito = messaggio sotto il pulsante, sparisce da solo dopo 4 secondi (vedi mostra() nello script) */
-#cf-esito{display:none;margin:1rem 0 0;padding:.8rem 1rem;border-radius:10px;background:var(--t-accent,#d9480f);color:#fff;font-weight:600;text-align:center}
+#cf-esito{display:none;margin:1rem 0 0;padding:.8rem 1rem;border-radius:10px;background:var(--t-accent,#8a6a3a);color:#fff;font-weight:600;text-align:center}
 #cf-esito.cf-visibile{display:block}
 #cf-esito.cf-errore{background:#b00020}
 </style>

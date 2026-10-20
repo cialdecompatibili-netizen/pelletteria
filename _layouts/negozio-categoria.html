@@ -40,7 +40,11 @@ Due livelli: reparto (Donna/Uomo, senza "genitore") e sottocategoria (campo "gen
 </div>
 {%- endif %}
 {%- assign nz_lista = site.data.catalogo.prodotti | where_exp: 'x', 'nz_ids_a contains x.categoria' | where_exp: 'x', 'x.visibile != false' -%}
+{%- if nz_lista.size == 0 -%}
+<p class="nz-cnt nz-vuota">Gli articoli di questa categoria arrivano presto. Intanto <a href="{{ '/contatti/' | relative_url }}">scrivici</a> cosa cerchi.</p>
+{%- else -%}
 <p class="nz-cnt">{{ nz_lista.size }} {% if nz_lista.size == 1 %}prodotto{% else %}prodotti{% endif %}</p>
+{%- endif -%}
 <div class="nz-lista">
 {%- for b in nz_lista -%}
 {%- assign nz_cb = site.data.catalogo.categorie | where: 'id', b.categoria | first -%}
