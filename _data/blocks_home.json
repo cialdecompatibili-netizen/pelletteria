@@ -27,7 +27,7 @@
     "id": "pricing",
     "nome": "Pre-ordine",
     "enabled": true,
-    "html": "<section class=\"ex-band\" id=\"pricing\" aria-labelledby=\"pricing-title\"><div class=\"ex-band-in\"><div><h2 class=\"ex-h2\" id=\"pricing-title\">Pre-ordina i tuoi articoli</h2><p>Nessun pagamento ora: ti scriviamo appena l'articolo e' pronto.</p></div><a class=\"ex-btn ex-btn-k\" href=\"__BASEURL__/negozio/\">Vai al negozio</a></div></section>"
+    "html": "<section class=\"ex-band\" id=\"pricing\" aria-labelledby=\"pricing-title\"><div class=\"ex-band-in\"><div><h2 class=\"ex-h2\" id=\"pricing-title\">Pre-ordina i tuoi articoli</h2><p>Nessun pagamento ora: ti scriviamo appena l'articolo è pronto.</p></div><a class=\"ex-btn ex-btn-k\" href=\"__BASEURL__/negozio/\">Vai al negozio</a></div></section>"
   },
   {
     "id": "cta",
