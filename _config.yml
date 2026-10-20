@@ -11,7 +11,7 @@ search: true
 # SEO globale
 author:
   name: "Pelletteria"
-  bio: "Borse, valigeria e accessori in pelle per donna e uomo. Pre-ordina i tuoi articoli."
+  bio: "Borse, valigeria e accessori in pelle per donna e uomo."
   links:
     - label: "Scrivici"
       icon: "fas fa-fw fa-envelope"

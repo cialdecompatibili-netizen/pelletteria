@@ -1,5 +1,5 @@
 {
-  "_nota": "PELLETTERIA (pre-ordine, nessun pagamento). Reparti Donna e Uomo; le sottocategorie hanno il campo \"genitore\". Prezzi in centesimi. Fonte UNICA di /negozio/ e delle pagine prodotto. L'id \"categoria\" e' riservato.",
+  "_nota": "PELLETTERIA. Reparti Donna e Uomo; le sottocategorie hanno il campo \"genitore\". Prezzi in centesimi. Fonte UNICA di /negozio/ e delle pagine prodotto. L'id \"categoria\" e' riservato.",
   "categorie": [
     {
       "id": "donna",

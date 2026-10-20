@@ -5,7 +5,5 @@ main:
     url: /negozio/categoria/donna/
   - title: "Uomo"
     url: /negozio/categoria/uomo/
-  - title: "Pre-ordina"
-    url: /negozio/
   - title: "Contatti"
     url: /contatti/
