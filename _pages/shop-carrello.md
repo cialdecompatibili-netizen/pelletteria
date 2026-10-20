@@ -21,7 +21,7 @@ author_profile: false
 .cart-item-img{width:80px;height:80px;object-fit:cover;border-radius:10px;background:#f5f5f5;display:flex;align-items:center;justify-content:center;font-size:2em;color:#ccc}
 .cart-item-img img{width:80px;height:80px;object-fit:cover;border-radius:10px}
 .cart-item-info{}
-.cart-item-title{font-weight:700;font-size:15px;color:#1a1a2e;margin-bottom:.3em}
+.cart-item-title{font-weight:700;font-size:15px;color:#503629;margin-bottom:.3em}
 .cart-item-meta{font-size:12px;color:#999}
 .cart-item-price{font-weight:700;color:#3f6b00;font-size:15px}
 .cart-item-right{display:flex;flex-direction:column;align-items:flex-end;gap:.6em}
@@ -35,7 +35,7 @@ author_profile: false
 /* Riepilogo */
 .cart-summary{background:#f9f9f9;border-radius:14px;padding:1.5em;margin-top:1.5em}
 .cart-summary-row{display:flex;justify-content:space-between;font-size:14px;color:#555;margin-bottom:.7em}
-.cart-summary-row.total{font-size:1.2em;font-weight:800;color:#1a1a2e;border-top:2px solid #eee;padding-top:.7em;margin-top:.3em}
+.cart-summary-row.total{font-size:1.2em;font-weight:800;color:#503629;border-top:2px solid #eee;padding-top:.7em;margin-top:.3em}
 .cart-coupon{display:flex;gap:.6em;margin:1em 0}
 .cart-coupon input{flex:1;padding:9px 14px;border:1.5px solid #ddd;border-radius:8px;font-size:13px;outline:none}
 .cart-coupon input:focus{border-color:#95d600}
@@ -48,7 +48,7 @@ author_profile: false
 /* Checkout form */
 .checkout-overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;z-index:9998;padding:1em}
 .checkout-box{background:#fff;border-radius:16px;padding:2em;max-width:440px;width:100%;max-height:90vh;overflow-y:auto}
-.checkout-box h3{font-size:1.2em;font-weight:800;margin:0 0 .3em;color:#1a1a2e}
+.checkout-box h3{font-size:1.2em;font-weight:800;margin:0 0 .3em;color:#503629}
 .checkout-box .sub{font-size:13px;color:#888;margin-bottom:1.2em}
 .checkout-field{margin-bottom:1em}
 .checkout-field label{display:block;font-size:12px;font-weight:700;color:#555;margin-bottom:.4em;text-transform:uppercase;letter-spacing:.3px}
@@ -66,7 +66,7 @@ author_profile: false
 .cart-badge-count{background:#e74c3c;color:#fff;font-size:10px;font-weight:700;border-radius:50%;width:16px;height:16px;display:inline-flex;align-items:center;justify-content:center;margin-left:3px;vertical-align:middle}
 
 /* Toast */
-.sp-toast{position:fixed;bottom:2em;left:50%;transform:translateX(-50%) translateY(60px);background:#1a1a2e;color:#fff;padding:12px 24px;border-radius:10px;font-size:14px;font-weight:600;opacity:0;transition:all .3s;z-index:9999;pointer-events:none}
+.sp-toast{position:fixed;bottom:2em;left:50%;transform:translateX(-50%) translateY(60px);background:#503629;color:#fff;padding:12px 24px;border-radius:10px;font-size:14px;font-weight:600;opacity:0;transition:all .3s;z-index:9999;pointer-events:none}
 .sp-toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 
 @media(max-width:600px){

@@ -70,8 +70,8 @@
 .nz-db:focus-visible { outline: none; box-shadow: 0 0 0 3px color-mix(in srgb, var(--c) 30%, transparent); }
 .nz-db:active { transform: translateY(1px); }
 .nz-db-continua { --c: #8a6a3a; }
-.nz-db-vai { --c: #14110f; background: var(--c); color: #fff; }
-.nz-db-vai:hover, .nz-db-vai:focus-visible { background: #2a231e; border-color: #2a231e; color: #fff; }
+.nz-db-vai { --c: #503629; background: var(--c); color: #fff; }
+.nz-db-vai:hover, .nz-db-vai:focus-visible { background: #3d2a20; border-color: #3d2a20; color: #fff; }
 @media (max-width: 575.98px) {
   .nz-dlg-az { flex-direction: column-reverse; align-items: stretch; flex-wrap: nowrap; }
   .nz-db { width: 100%; }
@@ -210,8 +210,8 @@
 #nz-carrello-pag .nz-b:active { transform: translateY(1px); }
 #nz-carrello-pag .nz-b-svuota { --c: #c62828; }
 #nz-carrello-pag .nz-b-continua { --c: #8a6a3a; }
-#nz-carrello-pag .nz-b-vai { --c: #14110f; background: var(--c); color: #fff; }
-#nz-carrello-pag .nz-b-vai:hover, #nz-carrello-pag .nz-b-vai:focus-visible { background: #2a231e; border-color: #2a231e; }
+#nz-carrello-pag .nz-b-vai { --c: #503629; background: var(--c); color: #fff; }
+#nz-carrello-pag .nz-b-vai:hover, #nz-carrello-pag .nz-b-vai:focus-visible { background: #3d2a20; border-color: #3d2a20; }
 /* Mobile: ordine invertito (in alto Procedi all'ordine, poi Continua lo shopping, in fondo Svuota il carrello). Su desktop resta Svuota - Continua - Procedi. */
 @media (max-width: 575.98px) {
   #nz-carrello-pag .nz-az-carrello { flex-direction: column-reverse; align-items: stretch; flex-wrap: nowrap; }
@@ -229,7 +229,7 @@
 
 /* ===== ORDINE (/ordine/): due colonne (form a passi + riepilogo fisso), passi a cerchietti, campi moderni, metodi di pagamento, bottoni come il carrello.
    Tutto scoped su #nz-ordine-pag. Il JS (carrello.js) usa gli id nz-o-*, .nz-passo, .nz-steps li, [data-nav], .nz-pay-o, #nz-riep-dati, #nz-sum-*: non cambiarli. */
-#nz-ordine-pag { --g: #14110f; --gh: #2a231e; --r: #c62828; }
+#nz-ordine-pag { --g: #503629; --gh: #3d2a20; --r: #c62828; }
 #nz-ordine-pag .nz-steps { display: flex; align-items: center; gap: 0; list-style: none; margin: 0 0 2rem; padding: 0; border: 0; }
 #nz-ordine-pag .nz-steps li { display: flex; align-items: center; gap: .6rem; flex: 0 0 auto; margin: 0; padding: 0; border: 0; opacity: 1; color: var(--nz-muto); font-weight: 500; font-size: .95rem; }
 #nz-ordine-pag .nz-steps li[hidden] { display: none; }

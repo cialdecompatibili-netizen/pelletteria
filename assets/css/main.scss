@@ -284,7 +284,7 @@ a.page__taxonomy-item:hover {
 /* ============================================================
    REDESIGN STILE HOME (verde, Archivo Narrow, angoli netti)
    ============================================================ */
-:root{--ex-ink:#14110f;--ex-line:#e2d9ca;--ex-warm:#f6f1e8;--ex-y:#b08d57;--ex-gd:#8a6a3a;--ex-deep:#14110f;--ex-d:'Cormorant Garamond','Times New Roman',serif}
+:root{--ex-ink:#14110f;--ex-line:#e2d9ca;--ex-warm:#f6f1e8;--ex-y:#b08d57;--ex-gd:#8a6a3a;--ex-deep:#503629;--ex-d:'Cormorant Garamond','Times New Roman',serif}
 ::selection{background:var(--ex-y);color:var(--ex-ink)}
 h1,h2,h3,h4,.page__title,.archive__item-title{font-family:var(--ex-d);color:var(--ex-ink);font-weight:700;letter-spacing:-.01em}
 h1,.page__title{line-height:1;text-wrap:balance}
@@ -354,7 +354,7 @@ h1,h2,h3,h4,.page__title,.archive__item-title{font-family:var(--lx-d);font-weigh
 .page__title{font-size:clamp(2.3rem,4.6vw,3.5rem);line-height:1.05;margin-bottom:1.25rem}
 .page__content h2{border-bottom:0;padding-bottom:0;font-size:clamp(1.7rem,2.6vw,2.2rem)}
 .btn,.btn--primary,.page__content .btn,.sp-btn-cart,.btn-cart,.btn-checkout,.btn-conferma{font-family:var(--lx-b);font-weight:500;font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;border-radius:0 !important}
-.btn--primary,.btn--primary:visited{background:var(--lx-ink);color:var(--lx-ivory)}
+.btn--primary,.btn--primary:visited{background:#503629;color:var(--lx-ivory)}
 .btn--primary:hover,.sp-btn-cart:hover,.btn-cart:hover,.btn-checkout:hover,.btn-conferma:hover{background:var(--lx-gold) !important;color:var(--lx-ink) !important}
 body .nv-header{background:var(--t-nav-bg,var(--lx-bg));border-bottom:1px solid var(--lx-line)}
 body a.nv__brand{font-family:var(--lx-d);font-weight:500;font-size:clamp(1.15rem,4.6vw,1.65rem);letter-spacing:.3em;text-transform:uppercase}
@@ -362,7 +362,7 @@ body .nv__link,body a.nv__dd-item{font-family:var(--lx-b);font-weight:400;font-s
 body .nv__link:hover,body .nv__link:focus-visible,body .nv__item.show>.nv__link,body .nv__item.active>a.nv__link,body .nv__item.active>.nv__link{box-shadow:inset 0 -1px 0 var(--lx-gold);font-weight:400}
 body .nv__dd{border-radius:0;border-color:var(--lx-line);box-shadow:0 18px 40px rgba(20,17,15,.08)}
 body a.nv__dd-item:hover,body a.nv__dd-item:focus-visible{background:var(--lx-bg);box-shadow:inset 2px 0 0 var(--lx-gold)}
-body .page__footer,body .page__footer footer,body .page__footer-follow,body .page__footer-copyright{background:var(--lx-ink) !important}
+body .page__footer,body .page__footer footer,body .page__footer-follow,body .page__footer-copyright{background:#503629 !important}
 body .page__footer{border-top:1px solid var(--lx-gold) !important}
 body .page__footer footer{padding-top:2rem;padding-bottom:2rem}
 body .page__footer-follow{display:none !important}
